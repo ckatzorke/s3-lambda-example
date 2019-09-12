@@ -15,7 +15,8 @@ pip3 install aws-cli
 
 In order to use the cli correctly, you need to call `aws configure` and fill in the required attributes.  
 For the access id and secret, you need to create a user for cli access, and select `AdministratorAccess` as policy.  
-After creation of the user, you can download the credentials as csv file.
+After creation of the user, you can download the credentials as csv file.  
+Look up the correct region identifier for your region here https://docs.aws.amazon.com/general/latest/gr/rande.html (e.g. eu-central-1 for Frankfurt).
 
 ## Source code
 
