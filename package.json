@@ -4,7 +4,7 @@
   "description": "Source and details for the S3-Lambda tutorial, that creates a thumbnail, triggered by an upload.   See also https://docs.aws.amazon.com/en_pv/lambda/latest/dg/with-s3-example.html.",
   "main": "index.js",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "gm": "^1.23.1"
   },
   "scripts": {
